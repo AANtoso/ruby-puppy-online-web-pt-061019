@@ -21,3 +21,9 @@ class Dog
     end
   end
 end
+
+dog1 = Dog.new("Milo")
+dog2 = Dog.new("Zorro")
+puts dog1.name
+Dog.print_all
+
